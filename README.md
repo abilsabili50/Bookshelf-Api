@@ -12,7 +12,7 @@ These instructions will get this project up and running on your local machine.
 
 ### Prerequisites
 
-You will need to install Node.js and its package manager, NPM. You can also install [nodemon](https://nodemon.io/) to run scripts automatically **(Optinal)**
+You will need to install Node.js and its package manager, NPM. You can also install [nodemon](https://nodemon.io/) to run scripts automatically **(Optional)**
 
 ### Installing
 
@@ -55,7 +55,7 @@ npm run start
 This route serves as the endpoint for adding book data.
 
 - Method : POST
-- Endpoint : "/books"
+- Endpoint : `/books`
 - Header :
   - Content-Type: application/json
   - Accept: application/json
