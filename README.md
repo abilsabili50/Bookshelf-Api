@@ -19,7 +19,7 @@ You will need to install Node.js and its package manager, NPM. You can also inst
 #### First you need to clone the repository. Run the following command :
 
 ```bash
-git clone https://github.com/abilsabili50/
+git clone https://github.com/abilsabili50/Bookshelf-Api.git
 ```
 
 #### Enter the repository :
