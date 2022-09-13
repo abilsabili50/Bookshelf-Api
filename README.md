@@ -63,14 +63,14 @@ This route serves as the endpoint for adding book data.
 
 ```json
 {
-	"name": "string",
-	"year": "number",
-	"author": "string",
-	"summary": "string",
-	"publisher": "string",
-	"pageCount": "number",
-	"readPage": "number",
-	"reading": "boolean"
+  "name": "string",
+  "year": "number",
+  "author": "string",
+  "summary": "string",
+  "publisher": "string",
+  "pageCount": "number",
+  "readPage": "number",
+  "reading": "boolean"
 }
 ```
 
@@ -78,11 +78,11 @@ This route serves as the endpoint for adding book data.
 
 ```json
 {
-	"status": "success",
-	"message": "Buku berhasil ditambahkan",
-	"data": {
-		"bookId": "string"
-	}
+  "status": "success",
+  "message": "Buku berhasil ditambahkan",
+  "data": {
+    "bookId": "string"
+  }
 }
 ```
 
@@ -122,23 +122,23 @@ This route serves as the endpoint for retrieving book details.
 
 ```json
 {
-	"status": "success",
-	"data": {
-		"book": {
-			"id": "string",
-			"name": "string",
-			"year": "number",
-			"author": "string",
-			"summary": "string",
-			"publisher": "string",
-			"pageCount": "number",
-			"readPage": "number",
-			"reading": "boolean",
-			"finished": "boolean",
-			"insertedAt": "date",
-			"updatedAt": "date"
-		}
-	}
+  "status": "success",
+  "data": {
+    "book": {
+      "id": "string",
+      "name": "string",
+      "year": "number",
+      "author": "string",
+      "summary": "string",
+      "publisher": "string",
+      "pageCount": "number",
+      "readPage": "number",
+      "reading": "boolean",
+      "finished": "boolean",
+      "insertedAt": "date",
+      "updatedAt": "date"
+    }
+  }
 }
 ```
 
@@ -155,14 +155,14 @@ This route serves as the endpoint for updating book data.
 
 ```json
 {
-	"name": "string",
-	"year": "number",
-	"author": "string",
-	"summary": "string",
-	"publisher": "string",
-	"pageCount": "number",
-	"readPage": "number",
-	"reading": "boolean"
+  "name": "string",
+  "year": "number",
+  "author": "string",
+  "summary": "string",
+  "publisher": "string",
+  "pageCount": "number",
+  "readPage": "number",
+  "reading": "boolean"
 }
 ```
 
@@ -170,8 +170,8 @@ This route serves as the endpoint for updating book data.
 
 ```json
 {
-	"status": "success",
-	"message": "Buku berhasil diperbarui"
+  "status": "success",
+  "message": "Buku berhasil diperbarui"
 }
 ```
 
@@ -187,8 +187,8 @@ This route serves as the endpoint for deleting book data.
 
 ```json
 {
-	"status": "success",
-	"message": "Buku berhasil dihapus"
+  "status": "success",
+  "message": "Buku berhasil dihapus"
 }
 ```
 
